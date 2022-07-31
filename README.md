@@ -25,3 +25,12 @@ pip install -r dev-requirements.txt
 pytest
 
 ````
+
+## pre-commit
+
+````powershell
+
+# install pre-commit and other libraries
+pip install -r dev-requirements
+
+````
