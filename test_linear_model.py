@@ -87,6 +87,9 @@ def test_model_save_load():
     """
     Tests for the model saving process
     """
+    # Disable Access to a protected member _base of a client class
+    # triggered by isinstance(...) below
+    # pylint: disable=W0212
     x_val, y_val = random_data_constructor()
     filename = "testing"
     _ = train_linear_model(x_val, y_val, filename=filename)
