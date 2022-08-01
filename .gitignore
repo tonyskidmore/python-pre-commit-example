@@ -2,3 +2,4 @@
 .pytest_cache
 *.sav
 __pycache__/
+interrogate_badge.svg

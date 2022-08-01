@@ -33,4 +33,10 @@ pytest
 # install pre-commit and other libraries
 pip install -r dev-requirements
 
+pre-commit install
+
+# run configure pre-commit hooks on all files in the repo
+pre-commit run --all-files
+
+
 ````
