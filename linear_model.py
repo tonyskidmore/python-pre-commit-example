@@ -1,4 +1,4 @@
-""" linear model """
+"""linear model."""
 
 import numpy
 from joblib import dump
@@ -9,10 +9,7 @@ from sklearn.model_selection import train_test_split
 def train_linear_model(
     x_val, y_val, test_frac=0.2, filename="trained_linear_model"
 ):
-    """
-    Trains a simple linear regression model with scikit-learn
-    """
-
+    """Trains a simple linear regression model with scikit-learn."""
     try:
         assert isinstance(x_val, numpy.ndarray), "x_val must be a Numpy array"
         assert isinstance(y_val, numpy.ndarray), "y_val must be a Numpy array"
